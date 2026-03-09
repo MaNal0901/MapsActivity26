@@ -56,28 +56,27 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
                 .position(TANGER)
                 .title("Tanger")
                 .snippet("Porte de l'Afrique")
-                .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_BLUE)));
+                .icon(BitmapDescriptorFactory.fromResource(R.drawable.ic_tanger)));
 
         // Rabat
         mMap.addMarker(new MarkerOptions()
                 .position(RABAT)
                 .title("Rabat")
                 .snippet("Capitale du Maroc - Tour Hassan")
-                .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_RED)));
+                .icon(BitmapDescriptorFactory.fromResource(R.drawable.ic_rabat)));
 
         // Casablanca
         mMap.addMarker(new MarkerOptions()
                 .position(CASABLANCA)
                 .title("Casablanca")
                 .snippet("Mosquée Hassan II")
-                .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_GREEN)));
-
+                .icon(BitmapDescriptorFactory.fromResource(R.drawable.ic_casablanca)));
         // Agadir
         mMap.addMarker(new MarkerOptions()
                 .position(AGADIR)
                 .title("Agadir")
                 .snippet("Perle du Souss")
-                .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_ORANGE)));
+                .icon(BitmapDescriptorFactory.fromResource(R.drawable.ic_agadir)));
     }
 
     //  Menu
