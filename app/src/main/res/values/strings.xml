@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Link</string>
+    <string name="title_activity_maps">Maps</string>
+
+    <!-- Libellés du menu -->
+    <string name="menu_default">Par défaut</string>
+    <string name="menu_satellite">SATELLITE</string>
+</resources>
